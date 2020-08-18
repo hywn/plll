@@ -1,11 +1,11 @@
 # plll
-create uncompressed/unfiltered ARGB PNGs, if you ever wanted to do that
+create uncompressed/unfiltered RGBA PNGs in javascript
 
 ## description
 `plll.js` exports a single function `png_argb :: (width: int, height: int) => (data: [int]) => png: Uint8Array` where
 - `width` is image pixel width
 - `height` is image pixel height
-- `data` is packed ARGB values
+- `data` is packed RGBA values
 - `png` is png data you can write to a file
 
 ## examples

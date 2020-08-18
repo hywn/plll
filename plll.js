@@ -101,7 +101,7 @@ const idat =
 
 const iend = chunk('IEND')
 
-const png_argb =
+const png_rgba =
 	(width_pix, height_pix, bit_depth=8) => data => {
 
 		// in terms of bytes
@@ -124,4 +124,4 @@ const png_argb =
 		])
 	}
 
-export { png_argb }
+export { png_rgba }
